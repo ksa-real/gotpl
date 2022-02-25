@@ -1,4 +1,4 @@
-module github.com/ksa-real/sprig-cli
+module github.com/ksa-real/gotpl
 
 go 1.17
 

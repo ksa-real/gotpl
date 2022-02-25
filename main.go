@@ -85,7 +85,7 @@ func main() {
 	}
 
 	t := template.Must(
-		template.New("go-template").Funcs(sprig.TxtFuncMap()).Parse(templateString))
+		template.New("gotpl").Funcs(sprig.TxtFuncMap()).Parse(templateString))
 
 	if err = t.Execute(os.Stdout, data); err != nil {
 		panic(err)
